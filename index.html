@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        width: 100%;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navigation">
+      <h1>snap</h1>
+      <img id="open-menu" src="./images/icon-menu.svg" alt="menu" />
+    </div>
+
+    <div class="menu close">
+      <div class="menu--wrapper">
+        <img
+          id="close-menu"
+          src="./images/icon-close-menu.svg"
+          alt="colse-menu"
+        />
+
+        <div class="collapse h1">
+          <div class="what">
+            <p>Features</p>
+            <img class="down" src="./images/icon-arrow-down.svg" alt="" />
+            <img class="up" src="./images/icon-arrow-up.svg" alt="" />
+          </div>
+
+          <div class="inner1">
+            <div class="">
+              <img src="./images/icon-todo.svg" alt="" />
+              <p>Todo List</p>
+            </div>
+            <div class="">
+              <img src="./images/icon-calendar.svg" alt="" />
+              <p>Calender</p>
+            </div>
+            <div class="">
+              <img src="./images/icon-reminders.svg" alt="" />
+              <p>Reminders</p>
+            </div>
+            <div class="">
+              <img src="./images/icon-planning.svg" alt="" />
+              <p>Planning</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapse h2">
+          <div class="what">
+            <p>Company</p>
+            <img class="down" src="./images/icon-arrow-down.svg" alt="" />
+            <img class="up" src="./images/icon-arrow-up.svg" alt="" />
+          </div>
+
+          <div class="inner2">
+            <p>History</p>
+            <p>Our Team</p>
+            <p>Blog</p>
+          </div>
+        </div>
+
+        <div class="collapse">
+          <p>Careers</p>
+        </div>
+        <div class="collapse">
+          <p>About</p>
+        </div>
+        <div class="button--wrapper">
+          <button class="login">Login</button>
+          <button class="register">Register</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="hero">
+        <img
+          src="./images/image-hero-desktop.png"
+          alt="hero"
+          class="hero--img-desktop"
+        />
+        <img
+          src="./images/image-hero-mobile.png"
+          alt="hero"
+          class="hero--img-mobile"
+        />
+      </div>
+      <section>
+        <h1>Make <span>remote work</span></h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button>Learn more</button>
+        <div class="icons">
+          <img src="./images/client-databiz.svg" alt="" />
+          <img src="./images/client-audiophile.svg" alt="" />
+          <img src="./images/client-meet.svg" alt="" />
+          <img src="./images/client-maker.svg" alt="" />
+        </div>
+      </section>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <!-- Javascript -->
+    <script src="./script.js"></script>
+  </body>
+</html>
